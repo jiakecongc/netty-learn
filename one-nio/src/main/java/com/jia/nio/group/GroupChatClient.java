@@ -79,7 +79,7 @@ public class GroupChatClient {
 
     public static void main(String[] args) throws Exception{
         //启动一个客户端
-        GroupChatClient groupChatClient = new GroupChatClient();
+        final GroupChatClient groupChatClient = new GroupChatClient();
 
         new Thread() {
             @Override
